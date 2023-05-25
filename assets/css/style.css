@@ -1,3 +1,4 @@
+/* Heading of website and body */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -23,12 +24,12 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Top links */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* The sections or panels containing info for website */
 .hero {
     height: 800px;
     width: 100%;
@@ -115,7 +116,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Images for benefit section */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* For the three panels going down the page */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Images for the three panels sections */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +173,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* for the headings of the three panels */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +189,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer section */
 .footer {
     padding: 30px;
     clear: both;
